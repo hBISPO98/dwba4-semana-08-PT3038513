@@ -12,8 +12,6 @@
 // 1.4. Crie a página Questao_04.html para hospedar e executar o arquivo Questao_04.js
 // 1.5. Mostre os dados de, no mínimo, 3 alunos.
 
-
-
 class Aluno {
     constructor(primeiroNome, segundoNome, primeiraNota, segundaNota) {
         this.primeiroNome = primeiroNome;
@@ -48,7 +46,7 @@ function mostrarDadosAlunos(listaAlunos) {
     listaAlunos.forEach(aluno => {
         alert(
             "Nome: " + aluno.nomeCompleto() + 
-            "\nMédia: " + aluno.media().toFixed(2) + 
+            "\nMédia: " + aluno.media().toFixed(2) + // Restringe a duas casas decimais
             "\nSituação: " + aluno.situacaoAluno()
         );
     });
