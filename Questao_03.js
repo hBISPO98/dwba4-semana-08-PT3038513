@@ -17,8 +17,8 @@ function calcularEExibir(nome, n1, n2) {
     let nota2Ponderada = n2 * 0.4;
     let notaTotal = nota1Ponderada + nota2Ponderada;
 
-    alert("Aluno: " + nome + "\nNota 1: " + n1 + "\nNota 2: " + n2);
-    alert("Nome: " + nome + "\nNota Total: " + notaTotal);
+    alert("Aluno(a): " + nome + "\nNota 1: " + n1 + "\nNota 2: " + n2);
+    alert("Aluno(a): " + nome + "\nNota Total: " + notaTotal);
 }
 
 // Aluno 1
